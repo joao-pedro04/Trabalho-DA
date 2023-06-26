@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  #cursos {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  .cursos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .curso-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .curso-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .curso-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .curso-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  #contato {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  #contato h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #contato p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
